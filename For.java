@@ -1,0 +1,12 @@
+package senac;
+
+public class For {
+
+    public static void main(String[] args) {
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(("i vale: " + i));
+            int b = i + 1;
+            System.out.println("i+1 vale: " + b);
+        }
+    }
+}
